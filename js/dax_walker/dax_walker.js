@@ -2,7 +2,7 @@
 
 import { Position } from '../model/Position.js';
 
-const API_URL = "http://35.202.250.71:8083/genPathxxa";
+const API_URL = "https://attle-scape.com/genPathxxa";
 
 const errorMessageMapping = {
     "UNMAPPED_REGION": "Unmapped region",

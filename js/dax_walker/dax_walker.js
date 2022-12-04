@@ -2,7 +2,7 @@
 
 import { Position } from '../model/Position.js';
 
-const API_URL = "https://api.dax.cloud/walker/generatePath";
+const API_URL = "http://35.202.250.71:8083/genPathxxa";
 
 const errorMessageMapping = {
     "UNMAPPED_REGION": "Unmapped region",
@@ -20,7 +20,6 @@ export function getPath({start, end, onSuccess, onError}) {
     $.ajax({
         url: API_URL,
         type: 'POST',
-        headers: {'key': 'sub_DPjXXzL5DeSiPf', 'secret': 'PUBLIC_KEY'},
         data: JSON.stringify({
             "start": {
                 "x": start.x,

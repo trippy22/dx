@@ -2,7 +2,7 @@
 
 import { Position } from '../model/Position.js';
 
-const API_URL = "https://attle-scape.com/genPathxxa";
+const API_URL = "https://midgard.aworky.workers.dev";
 
 const errorMessageMapping = {
     "UNMAPPED_REGION": "Unmapped region",
